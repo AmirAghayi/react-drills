@@ -28,8 +28,8 @@ componentDidMount(){
     return (
       <div className="App">
         <h1>Name: { this.state.lukeSkywalker.name }</h1>
-        <h1>Birth: : { this.state.lukeSkywalker.birth_year }</h1>
-        <h1>Height: : { this.state.lukeSkywalker.height }</h1>
+        <h1>Birth: { this.state.lukeSkywalker.birth_year }</h1>
+        <h1>Height: { this.state.lukeSkywalker.height }</h1>
         <h1>Eye color: { this.state.lukeSkywalker.eye_color }</h1>
       </div>
     );
